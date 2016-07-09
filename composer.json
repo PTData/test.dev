@@ -1,6 +1,11 @@
 {
     "name": "pedrodata/virtual",
     "description": "Uma pequena descrição",
+    "autoload": {
+        "psr-0" : {
+            "Lib" : "src"
+        }
+    },
     "require": {
         "php": "^5.3.3 || ^7.0"
     }
